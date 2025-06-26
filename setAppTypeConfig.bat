@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @echo off
 SET APP_TYPE=%1
 SET PROP_FILE=src\test\resources\serenity.properties
@@ -35,7 +34,7 @@ IF "%APP_TYPE%"=="superapp" (
 timeout /t 2 > nul
 
 echo ✅ serenity.properties configurado para: %APP_TYPE%
-=======
+
 @echo off
 SET APP_TYPE=%1
 SET PROP_FILE=src\test\resources\serenity.properties
@@ -72,4 +71,3 @@ IF "%APP_TYPE%"=="superapp" (
 timeout /t 2 > nul
 
 echo ✅ serenity.properties configurado para: %APP_TYPE%
->>>>>>> 65477f2b70e47f854437031f986c6d88c7db04dc
